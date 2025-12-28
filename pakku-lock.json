@@ -1,0 +1,88 @@
+{
+    "target": "modrinth",
+    "mc_versions": [
+        "1.21.1"
+    ],
+    "loaders": {
+        "neoforge": "21.1.216"
+    },
+    "projects": [
+        {
+            "pakku_id": "dLDSxsSvDzw30gzZ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "automodpack"
+            },
+            "name": {
+                "modrinth": "AutoModpack"
+            },
+            "id": {
+                "modrinth": "k68glP2e"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "automodpack-mc1.21.1-neoforge-4.0.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/k68glP2e/versions/18NbJwV0/automodpack-mc1.21.1-neoforge-4.0.2.jar",
+                    "id": "18NbJwV0",
+                    "parent_id": "k68glP2e",
+                    "hashes": {
+                        "sha512": "6b9924a8e76c11ee7ead3126c0b26bac9c67cc0a0c0c4b73f9b2cf71282d139c35cb608f97a83c960e1c676839267cf495972c76fcbf48d1b57b3de0709633a0",
+                        "sha1": "06549569265bc1f0bb3d55a71be3b18088e4453d"
+                    },
+                    "required_dependencies": [],
+                    "size": 15342947,
+                    "date_published": "2025-12-19T15:39:43.021057Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oAxVzIN6bUkuE2Qm",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "figura"
+            },
+            "name": {
+                "modrinth": "Figura"
+            },
+            "id": {
+                "modrinth": "s9gIPDom"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "figura-0.1.5+1.21.1-neoforge-mc.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/s9gIPDom/versions/yXFi1fed/figura-0.1.5+1.21.1-neoforge-mc.jar",
+                    "id": "yXFi1fed",
+                    "parent_id": "s9gIPDom",
+                    "hashes": {
+                        "sha512": "f8bb72be36f5f2a85d0abd8152cd262244b7f04a65da18cc714fee20a997a63a1c47beab3477851715b70da791fec68e4527ed44983edb121953d436a8f4de89",
+                        "sha1": "839661a870a3e01500ad8e38a454dacc4af155b3"
+                    },
+                    "required_dependencies": [],
+                    "size": 2189476,
+                    "date_published": "2025-02-17T20:12:08.327880Z"
+                }
+            ]
+        }
+    ],
+    "lockfile_version": 1
+}

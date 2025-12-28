@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+cd "$(readlink -f $(dirname $0)/..)"
+
+if [ ! -f ".downloads/pakku.jar" ]; then
+    mkdir -p .downloads || exit $?
+    wget https://github.com/juraj-hrivnak/Pakku/releases/latest/download/pakku.jar -O .downloads/pakku.jar || exit $?
+fi
+
+exec java -jar ".downloads/pakku.jar" "$@"
