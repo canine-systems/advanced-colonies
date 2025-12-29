@@ -1,0 +1,34 @@
+name: Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - run: ./bin/update-pakku.sh
+      - run: ./bin/pakku export
+
+  release:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TAG: xxx
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - run: ./bin/update-pakku.sh
+      - run: ./bin/pakku export
+      - run: gh release create --draft --fail-on-no-commits ${{ TAG }}
+      - run: gh release upload ${{ TAG }} "build/modrinth/Advanced Colonies-2.0.mrpack"
+      - run: gh release upload ${{ TAG }} "build/serverpack/Advanced Colonies-2.0.zip"
+      - run: gh release edit ${{ TAG }} --draft=false
