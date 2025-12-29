@@ -29,6 +29,6 @@ jobs:
       - run: ./bin/update-pakku.sh
       - run: ./bin/pakku export
       - run: gh release create --draft --fail-on-no-commits --title "Build ${TAG}" ${TAG}
-      - run: gh release upload ${TAG} "build/modrinth/Advanced Colonies-2.0.mrpack"
-      - run: gh release upload ${TAG} "build/serverpack/Advanced Colonies-2.0.zip"
+      - run: gh release upload ${TAG} "build/modrinth/Advanced Colonies-2.0.mrpack#Advanced Colonies.mrpack"
+      - run: gh release upload ${TAG} "build/serverpack/Advanced Colonies-2.0.zip#advanced-colonies-server.zip"
       - run: gh release edit ${TAG} --draft=false
