@@ -1,0 +1,70 @@
+#true if apples can turn into rotten apples if they despawn
+rotten_apple = true
+#Mob catcher only catches tamable animal
+mobcatcherOnlyTamableAnimal = true
+#entities that can't be caught
+mobcatcherBlacklist = ["minecraft:painting"]
+#percent chance of nether fortress loot table containing Blazing Protection book:
+# Default: 0.2
+# Range: 0.0 ~ 1.0
+blazing_protection_loot_chance = 0.2
+#the spawn weight of the pet store in villages, set to 0 to disable it entirely
+# Default: 17
+# Range: 0 ~ 1000
+petstore_village_weight = 17
+#percent chance of woodland mansion loot table containing sinister carrot:
+# Default: 0.3
+# Range: 0.0 ~ 1.0
+sinister_carrot_loot_chance = 0.3
+#percent chance of burried treasure loot table containing Bubbling book:
+# Default: 0.65
+# Range: 0.0 ~ 1.0
+bubbling_loot_chance = 0.65
+#percent chance of woodland mansion loot table containing Vampire book:
+# Default: 0.22
+# Range: 0.0 ~ 1.0
+vampirism_loot_chance = 0.22
+#percent chance of woodland mansion loot table containing Sonic boom book:
+# Default: 0.6
+# Range: 0.0 ~ 1.0
+sonic_boom_loot_chance = 0.6
+#percent chance of chest loot table containing paralysis book:
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+paralysis_loot_chance = 0.1
+#percent chance of chest loot table containing tough book:
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+tough_loot_chance = 0.1
+#percent chance of ender city loot table containing share book:
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+share_loot_chance = 0.5
+#percent chance of mineshaft loot table containing Ore Scenting book:
+# Default: 0.15
+# Range: 0.0 ~ 1.0
+ore_scenting_loot_chance = 0.15
+#owner cannot hurt pet
+protectPetsFromOwner = true
+#pet cannot hurt pet
+protectPetsFromPets = true
+#protect children animal
+protectChildren = true
+#protect pet from ownder
+reflectDamage = false
+#owner cannot hurt pet
+displayHitWarning = true
+#PROTECT_TEAM_MEMBERS
+protectTeamMembers = true
+#RESPECT_TEAM_RULES
+respectTeamRules = true
+#can hurt pet item
+can_hurt_pet_item = []
+#can always hurt item
+can_hurt_all = []
+#can always hurt
+no_protection_entity = []
+#other entities that can be protected
+other_should_protect_entity = []
+#entities player cant hurt
+player_cant_hurt_entity = []

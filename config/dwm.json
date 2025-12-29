@@ -1,0 +1,16 @@
+{
+  "dimensionsBlacklist": [
+    "immersive_portals:alternate1",
+    "immersive_portals:alternate2",
+    "immersive_portals:alternate3",
+    "immersive_portals:alternate4",
+    "immersive_portals:alternate5",
+    "ae2:spatial_storage"
+  ],
+  "hideTheEndConditionally": true,
+  "tardisRecallOperatorOnly": false,
+  "dimensionsAlwaysAvailable": false,
+  "biomesAlwaysAvailable": false,
+  "structuresAlwaysAvailable": false,
+  "filterStructuresByVisitedBiomes": true
+}

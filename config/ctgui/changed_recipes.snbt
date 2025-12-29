@@ -1,0 +1,740 @@
+{
+    data: [],
+    palette: [],
+    changes: [
+        {
+            exported: 1b,
+            id: "ctgui/new/create_compat_core/crafting_totem_of_undying_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:diamond"
+                    },
+                    e: {
+                        item: "minecraft:emerald"
+                    },
+                    j: {
+                        item: "minecraft:enchanted_golden_apple"
+                    }
+                },
+                pattern: [
+                    "ede",
+                    "djd",
+                    "ede"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:totem_of_undying"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/bhc/enchanted_golden_apple_0",
+            recipe: {
+                category: "misc",
+                group: "enchanted_golden_apple",
+                key: {
+                    b: {
+                        item: "minecraft:book"
+                    },
+                    e: {
+                        item: "minecraft:experience_bottle"
+                    },
+                    g: {
+                        item: "minecraft:golden_apple"
+                    }
+                },
+                pattern: [
+                    "beb",
+                    "ege",
+                    "beb"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:enchanted_golden_apple"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/experience_bottle_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:gold_ingot"
+                    },
+                    u: {
+                        item: "minecraft:glass_bottle"
+                    }
+                },
+                pattern: [
+                    "ggg",
+                    "gug",
+                    "ggg"
+                ],
+                result: {
+                    count: 16,
+                    id: "minecraft:experience_bottle"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/smelting/leather_0",
+            recipe: {
+                category: "misc",
+                cookingtime: 200,
+                experience: 0.0f,
+                ingredient: {
+                    item: "minecraft:rotten_flesh"
+                },
+                result: {
+                    count: 1,
+                    id: "minecraft:leather"
+                }
+            },
+            recipeType: "minecraft:smelting",
+            serializer: "minecraft:smelting",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/smelting/coal_0",
+            recipe: {
+                category: "misc",
+                cookingtime: 200,
+                experience: 0.0f,
+                ingredient: {
+                    item: "minecraft:charcoal"
+                },
+                result: {
+                    count: 1,
+                    id: "minecraft:coal"
+                }
+            },
+            recipeType: "minecraft:smelting",
+            serializer: "minecraft:smelting",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/blasting/diamond_0",
+            recipe: {
+                category: "misc",
+                cookingtime: 100,
+                experience: 0.0f,
+                ingredient: {
+                    item: "minecraft:coal_block"
+                },
+                result: {
+                    count: 1,
+                    id: "minecraft:diamond"
+                }
+            },
+            recipeType: "minecraft:blasting",
+            serializer: "minecraft:blasting",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/armadillo_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "minecraft:armadillo_scute"
+                    },
+                    e: {
+                        item: "minecraft:egg"
+                    }
+                },
+                pattern: [
+                    "aaa",
+                    "aea",
+                    "aaa"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:armadillo_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/bee_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "minecraft:egg"
+                    },
+                    h: {
+                        item: "minecraft:honeycomb"
+                    }
+                },
+                pattern: [
+                    "h h",
+                    " e ",
+                    "h h"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:bee_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.bogged_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    b: {
+                        item: "minecraft:bone"
+                    },
+                    e: {
+                        item: "minecraft:egg"
+                    },
+                    t: {
+                        item: "minecraft:tipped_arrow"
+                    }
+                },
+                pattern: [
+                    "ttt",
+                    "teb",
+                    "bbb"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:bogged_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.breeze_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    b: {
+                        item: "create_compat_core:breeze_powder"
+                    },
+                    e: {
+                        item: "minecraft:egg"
+                    },
+                    l: {
+                        item: "minecraft:breeze_rod"
+                    }
+                },
+                pattern: [
+                    "blb",
+                    "beb",
+                    "blb"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:breeze_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/drowned_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    p: {
+                        item: "minecraft:potion"
+                    },
+                    w: {
+                        item: "minecraft:water_bucket"
+                    },
+                    z: {
+                        item: "minecraft:zombie_spawn_egg"
+                    }
+                },
+                pattern: [
+                    "p p",
+                    " z ",
+                    "pwp"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:drowned_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.evoker_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    b: {
+                        item: "minecraft:totem_of_undying"
+                    },
+                    d: {
+                        item: "minecraft:experience_bottle"
+                    },
+                    e: {
+                        item: "minecraft:emerald"
+                    },
+                    t: {
+                        item: "minecraft:egg"
+                    }
+                },
+                pattern: [
+                    "eee",
+                    "dtd",
+                    " b "
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:evoker_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.guardian_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    e: {
+                        item: "minecraft:egg"
+                    },
+                    p: {
+                        item: "minecraft:prismarine_shard"
+                    },
+                    u: {
+                        item: "minecraft:prismarine_crystals"
+                    }
+                },
+                pattern: [
+                    "pup",
+                    "ueu",
+                    "pup"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:guardian_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.hoglin_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    e: {
+                        item: "minecraft:egg"
+                    },
+                    h: {
+                        item: "mynethersdelight:hoglin_hide"
+                    },
+                    p: {
+                        item: "mynethersdelight:hoglin_loin"
+                    }
+                },
+                pattern: [
+                    " h ",
+                    "pep",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:hoglin_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.vindicator_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    e: {
+                        item: "minecraft:emerald"
+                    },
+                    f: {
+                        item: "minecraft:egg"
+                    },
+                    i: {
+                        item: "minecraft:iron_axe"
+                    }
+                },
+                pattern: [
+                    "eie",
+                    "efe",
+                    "eie"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:vindicator_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.witch_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    d: {
+                        item: "minecraft:sugar"
+                    },
+                    e: {
+                        item: "minecraft:egg"
+                    },
+                    g: {
+                        item: "minecraft:gunpowder"
+                    },
+                    h: {
+                        item: "minecraft:glowstone_dust"
+                    },
+                    p: {
+                        item: "minecraft:potion"
+                    },
+                    r: {
+                        item: "minecraft:redstone"
+                    },
+                    s: {
+                        item: "minecraft:spider_eye"
+                    }
+                },
+                pattern: [
+                    "g h",
+                    "ser",
+                    "d p"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:witch_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.wither_skeleton_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    b: {
+                        item: "minecraft:bone"
+                    },
+                    c: {
+                        item: "minecraft:coal"
+                    },
+                    e: {
+                        item: "minecraft:egg"
+                    },
+                    s: {
+                        item: "minecraft:stone_sword"
+                    }
+                },
+                pattern: [
+                    "bsb",
+                    "cec",
+                    "bcb"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:wither_skeleton_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/craftable_spawner/elder_guardian_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:dark_prismarine"
+                    },
+                    g: {
+                        item: "minecraft:guardian_spawn_egg"
+                    },
+                    s: {
+                        item: "minecraft:sponge"
+                    }
+                },
+                pattern: [
+                    "dsd",
+                    "dgd",
+                    "ddd"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:elder_guardian_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/craftable_spawner/piglin_brute_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "minecraft:piglin_spawn_egg"
+                    },
+                    {
+                        item: "minecraft:golden_axe"
+                    }
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:piglin_brute_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/reliquary/reliquary.fragment_to_spawn_egg.item.minecraft.enderman_spawn_egg_0",
+            recipe: {
+                category: "misc",
+                group: "reliquary.fragment_to_spawn_egg",
+                key: {
+                    e: {
+                        item: "minecraft:ender_pearl"
+                    },
+                    u: {
+                        item: "minecraft:egg"
+                    }
+                },
+                pattern: [
+                    " e ",
+                    "eue",
+                    " e "
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:enderman_spawn_egg"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/netherite_ingot_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "minecraft:coal_block"
+                    },
+                    d: {
+                        item: "minecraft:diamond"
+                    },
+                    e: {
+                        item: "minecraft:emerald_block"
+                    }
+                },
+                pattern: [
+                    "dcd",
+                    "ede",
+                    "dcd"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:netherite_ingot"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/neptunium_ingot_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:diamond"
+                    },
+                    i: {
+                        item: "minecraft:iron_ingot"
+                    },
+                    m: {
+                        item: "minecraft:prismarine_crystals"
+                    },
+                    p: {
+                        item: "minecraft:prismarine_shard"
+                    }
+                },
+                pattern: [
+                    "pdp",
+                    "mpm",
+                    "pip"
+                ],
+                result: {
+                    count: 1,
+                    id: "aquaculture:neptunium_ingot"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/prismarine_shard_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:gold_nugget"
+                    },
+                    i: {
+                        item: "minecraft:iron_nugget"
+                    },
+                    p: {
+                        item: "minecraft:potion"
+                    }
+                },
+                pattern: [
+                    "igi",
+                    "pgp",
+                    "igi"
+                ],
+                result: {
+                    count: 4,
+                    id: "minecraft:prismarine_shard"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/prismarine_crystals_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:gold_nugget"
+                    },
+                    k: {
+                        item: "minecraft:potion"
+                    },
+                    p: {
+                        item: "minecraft:glowstone_dust"
+                    }
+                },
+                pattern: [
+                    "gpg",
+                    "kpk",
+                    "gpg"
+                ],
+                result: {
+                    count: 4,
+                    id: "minecraft:prismarine_crystals"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/nether_star_0",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:diamond_block"
+                    },
+                    g: {
+                        item: "minecraft:gold_block"
+                    },
+                    l: {
+                        item: "minecraft:lapis_block"
+                    },
+                    n: {
+                        item: "minecraft:netherite_ingot"
+                    },
+                    q: {
+                        item: "minecraft:quartz_block"
+                    }
+                },
+                pattern: [
+                    "glg",
+                    "ndn",
+                    "qlq"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:nether_star"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        }
+    ]
+}

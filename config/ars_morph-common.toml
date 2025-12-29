@@ -1,0 +1,16 @@
+#Identity Abilities
+["IDENTITY MORPHS"]
+	#cooldown for the active ability of flarecannon
+	flarecannon_cooldown = 120
+	#cooldown for the active ability of starbuncle
+	starby_cooldown = 3600
+	#cooldown for the active ability of weald walker
+	ww_cooldown = 100
+	#cooldown for the active ability of whirlisprig
+	whirli_cooldown = 400
+	#cooldown for the active ability of wilden hunter
+	wil_hunter_cooldown = 800
+	#cooldown for the active ability of wilden stalker
+	wil_stalker_cooldown = 1300
+	#cooldown for the active ability of wixie
+	wixie_cooldown = 100

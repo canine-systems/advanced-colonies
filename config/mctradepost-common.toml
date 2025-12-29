@@ -1,0 +1,57 @@
+[marketplace]
+	#What is the value of a Trade Coin (‡)?
+	tradeCoinValue = 100
+	#At what building level can the Marketplace mint coins?
+	mintingLevel = 2
+	#How long before visitors will consider shopping again?
+	shoppingCooldown = 400
+	#How likely is a sold item to make a cash register sound?
+	registerSoundChance = 0.5
+	#What chance, per building level, do visitors have of deciding to shop?
+	shoppingChance = 5
+
+[resort]
+	#Maximum percentage chance of a citizen going on a vacation.
+	vacationMaxChance = 0.2
+	#How much advertising can a citizen withstand before being lured onto a vacation? Negative value disables vacations.
+	maxAdSaturation = 12000
+	#How many ticks must pass between advertising attempts (which may result in vacations)?
+	advertisingCooldown = 300
+	#Under what stat level do citizens become more susceptible to advertising?
+	vacationSusceptibilityThreshold = 6
+	#At what stat level do citizens become immune to advertising?
+	vacationImmunityThreshold = 12
+	#How many stat points will a single vacation restore?
+	vacationHealing = 2
+	#Trade Coin (‡) generated per vacation.
+	vacationIncome = 1
+	#Guests per resort level.
+	guestsPerResortLevel = 2
+
+[recycler]
+	#Recycling grinder belts per building level.
+	grindersPerLevel = 2
+	#Time to complete a recycling cycle.
+	baseRecyclerTime = 100
+	#Stat level at which recycling is performed as well as possible.
+	flawlessRecycling = 50
+	#Frequency of warehouse inventory updates in Colony Ticks (processor intensive).
+	warehouseInventoryCooldown = 50
+
+[station]
+	#Tick frequency of verifying tracks remain connected (processor intensive).
+	trackValidationFrequency = 10000
+	#Base trade speed per building level.
+	baseTradeSpeed = 4
+	#Number of imports allowed per Station level.
+	importsPerLevel = 5
+
+[petshop]
+	#Number of pets per building level.
+	petsPerLevel = 2
+
+[outpost]
+	#Allow use of the Outpost.
+	outpostEnabled = true
+	#Maximum distance the outpost can be from the colony center. Note that large values will cause pathing exceptions.
+	maxDistance = 800
