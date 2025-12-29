@@ -28,7 +28,7 @@ jobs:
           persist-credentials: false
       - run: ./bin/update-pakku.sh
       - run: ./bin/pakku export
-      - run: gh release create --draft --fail-on-no-commits --title "Build ${TAG}" ${TAG}
-      - run: gh release upload ${TAG} "build/modrinth/Advanced Colonies-2.0.mrpack#Advanced Colonies.mrpack"
-      - run: gh release upload ${TAG} "build/serverpack/Advanced Colonies-2.0.zip#advanced-colonies-server.zip"
-      - run: gh release edit ${TAG} --draft=false
+      - run: mkdir dist/
+      - run: cp "build/modrinth/Advanced Colonies-2.0.mrpack" "dist/advanced-colonies.mrpack"
+      - run: cp "build/serverpack/Advanced Colonies-2.0.zip" "dist/advanced-colonies-server-${TAG}.zip"
+      - run: gh release create --title "Build ${TAG}" ${TAG} dist/*
