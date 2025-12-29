@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"dwm:tardis_system_directional_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"dwm:sonic_screwdriver_11"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:stripped_birch_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

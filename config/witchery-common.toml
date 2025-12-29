@@ -1,6 +1,0 @@
-#Enable curses. When disabled, rituals that apply curses will not function.
-enableCurses = true
-#Require Ghost of the Light infusion to use mirror teleportation. When enabled, only players with this infusion can teleport through mirrors.
-requireGhostOfLightInfusion = false
-#Enable player werewolves to spread lycanthropy at level 10.
-enableLycanthropy = true
