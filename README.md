@@ -19,4 +19,8 @@ https://github.com/canine-systems/advanced-colonies/releases/latest/download/adv
 
 ## Server Config
 
-??? TODO
+See [canine-systems/advanced-colonies-server](https://github.com/canine-systems/advanced-colonies-server).
+
+## Development
+
+`./bin/pakku` is your friend.
