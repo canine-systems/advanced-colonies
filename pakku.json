@@ -2,6 +2,7 @@
     "name": "Advanced Colonies",
     "version": "2.0",
     "overrides": [
-        "config"
+        "config",
+        "servers.dat"
     ]
 }
