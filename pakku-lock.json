@@ -46,6 +46,85 @@
             ]
         },
         {
+            "pakku_id": "YgOuK1jKZ15a3lZv",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "balm"
+            },
+            "name": {
+                "modrinth": "Balm"
+            },
+            "id": {
+                "modrinth": "MBAkmtvl"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "balm-neoforge-1.21.1-21.0.56.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/Yoii3Xj6/balm-neoforge-1.21.1-21.0.56.jar",
+                    "id": "Yoii3Xj6",
+                    "parent_id": "MBAkmtvl",
+                    "hashes": {
+                        "sha512": "08ab4483999bee8f4a13b0069e09565255336375542af498188219e1509e2b58eaf281bfe75c7e135c8d5e2804c0982538cbf5d7cf02a5dec1bd8be8f9b075e6",
+                        "sha1": "635e706136bb228e6a72d41d86dec495f812ccb5"
+                    },
+                    "required_dependencies": [],
+                    "size": 739709,
+                    "date_published": "2026-01-05T13:50:25.814457Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "f5uDYre8WfNKEEfO",
+            "pakku_links": [
+                "YgOuK1jKZ15a3lZv"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "default-options"
+            },
+            "name": {
+                "modrinth": "Default Options"
+            },
+            "id": {
+                "modrinth": "WEg59z5b"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "defaultoptions-neoforge-1.21.1-21.1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WEg59z5b/versions/akQv5d1t/defaultoptions-neoforge-1.21.1-21.1.5.jar",
+                    "id": "akQv5d1t",
+                    "parent_id": "WEg59z5b",
+                    "hashes": {
+                        "sha512": "bef82a4a4340a82771ada80c483677b544f8295cdb8c8ec63953fcc4e67aae281e6d68bdaff55647a1908ff68788203d6b45d0d28229eaeaac8000a7a3f36acf",
+                        "sha1": "7104cd59707a13e36f6e113dc17faa0a8ee496e3"
+                    },
+                    "required_dependencies": [
+                        "MBAkmtvl"
+                    ],
+                    "size": 95656,
+                    "date_published": "2025-09-07T12:29:32.721176Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oAxVzIN6bUkuE2Qm",
             "type": "MOD",
             "side": "CLIENT",
