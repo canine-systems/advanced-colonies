@@ -1,0 +1,7 @@
+menuBackgroundBlurriness:5
+narrator:0
+narratorHotkey:true
+skipMultiplayerWarning:true
+telemetryOptInExtra:false
+textBackgroundOpacity:0.5
+tutorialStep:none
