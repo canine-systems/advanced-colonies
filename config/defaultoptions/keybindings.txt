@@ -255,5 +255,5 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown:
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown:
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown:
 key_key.minecolonies.toggle_goggles:key.keyboard.unknown:
-key_key.nbtedit.shortcut:key.keyboard.n:
+key_key.nbtedit.shortcut:key.keyboard.unknown:
 key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe:
