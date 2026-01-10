@@ -1,3 +1,4 @@
+joinedFirstServer:true
 menuBackgroundBlurriness:5
 narrator:0
 narratorHotkey:true
