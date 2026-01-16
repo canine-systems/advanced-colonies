@@ -51,15 +51,6 @@ key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown:
 key_keybind.name.ZOOM:key.keyboard.c:
 key_supplementaries.keybind.quiver:key.keyboard.v:
 key_key.curios.open.desc:key.keyboard.g:
-key_key.bdd.hover:key.keyboard.g:
-key_key.bdd.flight_lock:key.keyboard.left.alt:
-key_key.bdd.roar:key.keyboard.h:
-key_key.bdd.bite:key.keyboard.b:
-key_key.bdd.blast:key.keyboard.r:
-key_key.bdd.tail_whip:key.keyboard.y:
-key_key.bdd.secondary_shot:key.keyboard.x:
-key_key.bdd.speed_up:key.keyboard.up:
-key_key.bdd.speed_down:key.keyboard.down:
 key_key.veinmining.activate.desc:key.keyboard.unknown:
 key_key.minecolonies_tweaks.resourcescroll_book:key.keyboard.unknown:
 key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r:
@@ -76,7 +67,7 @@ key_key.immersiveengineering.magnetEquip:key.keyboard.s:
 key_key.immersiveengineering.railgunZoom:key.mouse.middle:
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown:
 key_key.ponder.ponder:key.keyboard.w:
-key_gui.xaero_minimap_settings:key.keyboard.y:
+key_gui.xaero_minimap_settings:key.keyboard.unknown:
 key_gui.xaero_zoom_in:key.keyboard.unknown:
 key_gui.xaero_zoom_out:key.keyboard.unknown:
 key_gui.xaero_new_waypoint:key.keyboard.b:
@@ -98,8 +89,8 @@ key_gui.xaero_alternative_list_players:key.keyboard.unknown:
 key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown:
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown:
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown:
-key_figura.config.action_wheel_button:key.keyboard.b:
-key_figura.config.popup_button:key.keyboard.r:
+key_figura.config.action_wheel_button:key.keyboard.f6:
+key_figura.config.popup_button:key.keyboard.f8:
 key_figura.config.reload_button:key.keyboard.unknown:
 key_figura.config.panic_button:key.keyboard.unknown:
 key_figura.config.wardrobe_button:key.keyboard.unknown:
