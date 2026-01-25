@@ -23,7 +23,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "automodpack-mc1.21.1-neoforge-4.0.2.jar",
+                    "file_name": "automodpack-mc1.21.1-neoforge-4.0.5.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -32,16 +32,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/k68glP2e/versions/18NbJwV0/automodpack-mc1.21.1-neoforge-4.0.2.jar",
-                    "id": "18NbJwV0",
+                    "url": "https://cdn.modrinth.com/data/k68glP2e/versions/ET2mE920/automodpack-mc1.21.1-neoforge-4.0.5.jar",
+                    "id": "ET2mE920",
                     "parent_id": "k68glP2e",
                     "hashes": {
-                        "sha512": "6b9924a8e76c11ee7ead3126c0b26bac9c67cc0a0c0c4b73f9b2cf71282d139c35cb608f97a83c960e1c676839267cf495972c76fcbf48d1b57b3de0709633a0",
-                        "sha1": "06549569265bc1f0bb3d55a71be3b18088e4453d"
+                        "sha512": "b0df055ffe4b9549a2e7f1e29764b1ef19b5a0a88b57e62c73a9ddc358010fbf1f2436876c57aedc97f65805066e3bd86e6a51bcf9618a7fee5fec0eb3fe4b7f",
+                        "sha1": "18cabd45e7c67f21f80febf65ba7d9aa7872851a"
                     },
                     "required_dependencies": [],
-                    "size": 15342947,
-                    "date_published": "2025-12-19T15:39:43.021057Z"
+                    "size": 15383558,
+                    "date_published": "2026-01-19T11:42:25.314829Z"
                 }
             ]
         },
