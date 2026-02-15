@@ -215,7 +215,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "ImmediatelyFast-NeoForge-1.6.9+1.21.1.jar",
+                    "file_name": "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -224,16 +224,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/7TFPpGUU/ImmediatelyFast-NeoForge-1.6.9+1.21.1.jar",
-                    "id": "7TFPpGUU",
+                    "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/PhxY0iHw/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
+                    "id": "PhxY0iHw",
                     "parent_id": "5ZwdcRci",
                     "hashes": {
-                        "sha512": "0d55daacfc577b3395925b4d241b175a4e12cbd8b27cecfbd4653ab68867691ecd664c565a5d075fc4339dae1254d8789dbf405a80e72e98ebba3afdb21a08ba",
-                        "sha1": "01df8113ce41993ea341b973afc36ef2e1701e00"
+                        "sha512": "93fb2685547f1c7d95b558b3b24efd53551b8ab6978b52483d2924a03de044e992669f83e2ee73f9ad1308035b932de431f4f662a971f496c7fdc55195aebd7b",
+                        "sha1": "f1f5cccd7cb59d875f44566b2e557ccecc8c33fb"
                     },
                     "required_dependencies": [],
-                    "size": 367790,
-                    "date_published": "2025-12-18T11:58:09.043171Z"
+                    "size": 368598,
+                    "date_published": "2026-01-27T21:12:05.910461Z"
                 }
             ]
         }
