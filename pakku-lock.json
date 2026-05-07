@@ -8,6 +8,44 @@
     },
     "projects": [
         {
+            "pakku_id": "WxSyCJ61pfZjStPW",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "architectury-api"
+            },
+            "name": {
+                "modrinth": "Architectury API"
+            },
+            "id": {
+                "modrinth": "lhGA9TYQ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "architectury-13.0.8-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar",
+                    "id": "ZxYGwlk0",
+                    "parent_id": "lhGA9TYQ",
+                    "hashes": {
+                        "sha512": "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e",
+                        "sha1": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b"
+                    },
+                    "required_dependencies": [],
+                    "size": 584004,
+                    "date_published": "2024-10-05T19:24:08.875561Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "dLDSxsSvDzw30gzZ",
             "type": "MOD",
             "side": "BOTH",
@@ -79,6 +117,86 @@
                     "required_dependencies": [],
                     "size": 701108,
                     "date_published": "2026-04-22T10:30:58.516249Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "bnTnByD3qkqCrH0r",
+            "pakku_links": [
+                "JvScK47Ax6d4irW7"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "betterf3"
+            },
+            "name": {
+                "modrinth": "BetterF3"
+            },
+            "id": {
+                "modrinth": "8shC1gFX"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "BetterF3-11.0.3-NeoForge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/maXNB1dn/BetterF3-11.0.3-NeoForge-1.21.1.jar",
+                    "id": "maXNB1dn",
+                    "parent_id": "8shC1gFX",
+                    "hashes": {
+                        "sha512": "59c36a882669399dce2110db42df05e8fe935a2e1194c4bac49abffc3129b2e19373dfe3c4a3d2f8b22f21b1d66ad8cbd653944ce0a71ae05d3d65528d1b7514",
+                        "sha1": "8fa17df26d3650416bc124be7a264bc1566a3b26"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g"
+                    ],
+                    "size": 481646,
+                    "date_published": "2024-11-04T00:45:11.855685Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "JvScK47Ax6d4irW7",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "cloth-config"
+            },
+            "name": {
+                "modrinth": "Cloth Config API"
+            },
+            "id": {
+                "modrinth": "9s6osm5g"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "cloth-config-15.0.140-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar",
+                    "id": "izKINKFg",
+                    "parent_id": "9s6osm5g",
+                    "hashes": {
+                        "sha512": "aaf9b010955b8cd294e5a92f069985b18729fd5e2cf22d351f1dff9680f15488688803ec41e77e941cbde130ceb535014ca4c868047d80ab69c2d508e216654d",
+                        "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
+                    },
+                    "required_dependencies": [],
+                    "size": 1163890,
+                    "date_published": "2024-09-16T17:18:02.926305Z"
                 }
             ]
         },
@@ -162,6 +280,43 @@
             ]
         },
         {
+            "pakku_id": "7Ecg9xXjKTQ4klmC",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "extreme_sound_muffler"
+            },
+            "name": {
+                "modrinth": "Extreme sound muffler"
+            },
+            "id": {
+                "modrinth": "5IIKsxiL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5IIKsxiL/versions/m5je0Rop/ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
+                    "id": "m5je0Rop",
+                    "parent_id": "5IIKsxiL",
+                    "hashes": {
+                        "sha512": "9938bb092ce3e2742281d972da9d509ad39b0c52590d33c4d8dc4759f3494f21bab0e30e3ccc096bf0b7af9cdb17182ad24c20ea20510767208eff14ad9fda93",
+                        "sha1": "f8b558f8c464f202f4a88a44332b3a495c0dc727"
+                    },
+                    "required_dependencies": [],
+                    "size": 270115,
+                    "date_published": "2026-04-08T17:40:13.083515Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oAxVzIN6bUkuE2Qm",
             "type": "MOD",
             "side": "CLIENT",
@@ -200,6 +355,44 @@
             ]
         },
         {
+            "pakku_id": "cIp8JDin4V8DJaQu",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "fusion-connected-textures"
+            },
+            "name": {
+                "modrinth": "Fusion (Connected Textures)"
+            },
+            "id": {
+                "modrinth": "p19vrgc2"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "fusion-1.2.12-neoforge-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/h2GrA0Ku/fusion-1.2.12-neoforge-mc1.21.1.jar",
+                    "id": "h2GrA0Ku",
+                    "parent_id": "p19vrgc2",
+                    "hashes": {
+                        "sha512": "50604fa4125e846b659479a8bb8bcef5db47460a8185902b8655d8b12c6cc67eb3cc4c08fee45e82a6b215976bea2a480e32ce420f062cea88abe17cb362365c",
+                        "sha1": "d86f641b67d4b01d99da8424ba2a3edc0e6690b6"
+                    },
+                    "required_dependencies": [],
+                    "size": 532912,
+                    "date_published": "2026-01-17T02:26:56.876388Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KvRlr3jpXFknZowV",
             "type": "MOD",
             "side": "CLIENT",
@@ -234,6 +427,50 @@
                     "required_dependencies": [],
                     "size": 368598,
                     "date_published": "2026-01-27T21:12:05.910461Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DiMT4WluA9SMVXPa",
+            "pakku_links": [
+                "JvScK47Ax6d4irW7",
+                "WxSyCJ61pfZjStPW"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "llo"
+            },
+            "name": {
+                "modrinth": "Light Level Overlay"
+            },
+            "id": {
+                "modrinth": "wtejCXCP"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "lightleveloverlay-neoforge-1.3.0+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/wtejCXCP/versions/VIrCF31o/lightleveloverlay-neoforge-1.3.0+mc1.21.1.jar",
+                    "id": "VIrCF31o",
+                    "parent_id": "wtejCXCP",
+                    "hashes": {
+                        "sha512": "16b6a17889b9154f67aa87bd1a0f91afb903e3e3d9d634d7dcc60afc3c9c9db4cf65ecaad8df459ef15135411741b028c696e3d03b58eead5c1da588ebbb1aed",
+                        "sha1": "c7b06269876a9988e83e5911d75d41bbc639ad21"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 22592,
+                    "date_published": "2026-01-09T01:39:09.142456Z"
                 }
             ]
         }
